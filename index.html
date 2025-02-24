@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Programación I | Parcial 2 | Sanchez, Margoth</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="parcial.js" defer></script>
+  </head>
+  <body>
+    <div class="web">
+     <!--  <header>
+        <h1>Programación I | Parcial 2 | Sánchez, Margoth</h1>
+      </header> -->
+
+      <main>
+        <div class="container-title">
+          <h2 class="principal-title">Alien Wear – Moda de Otro Mundo 👽</h2>
+          <h3 class="title-third">Llévatelo en Platillo</h3>
+        
+        </div>
+        <aside id="mini-carrito">
+          <div id="categorias">
+            <form action="#" method="get">
+              <!--    <h3 class="titulo-filtros">Filtros</h3> -->
+              <select name="filtroCategoria" id="filtroCategoria">
+                <option value="todo" selected>Todo</option>
+                <option value="remeras">Remeras</option>
+                <option value="gorras">Gorras</option>
+                <option value="calcetines">Calcetines</option>
+                <option value="Mochilas">Mochilas</option>
+              </select>
+            </form>
+          </div>
+          <p class="text-item-agregado">
+            <span class="item-agregado">0</span> ítems agregados
+          </p>
+          <p class="text-item-precio">
+            $<span class="item-precio">0</span> es el total
+          </p>
+          <!--   <button class="boton-carrito">Ver carrito</button> -->
+          <div class="responsive-container boton-carrito">
+            <img src="img/carrito-de-compras.png" alt="" />
+            <span class="item-contador-carrito">0</span>
+          </div>
+        </aside>
+
+        <h2>Productos</h2>
+        <!-- Generar el contenido del ul#productos dinámicamente -->
+        <ul id="productos"></ul>
+
+        <div id="ofertas"></div>
+      </main>
+
+      <footer>
+        <ul>
+          <li>Valeria Sanchez</li>
+          <li>
+            <a href="mailto:valeria.sanchez.ord@gmail.com" target="_blank"
+              >valeria.sanchez.ord@gmail.com</a
+            >
+          </li>
+          <li>E-commerce</li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
